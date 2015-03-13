@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/spacebg" >
+
+    <games.andoid.shooter_ver5_0.GameDrawer
+        android:id="@+id/gameView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#70723b3b"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/LevelTAG_"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:paddingStart="10dp"
+            android:text="LEVEL 1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFF" />
+
+        <TextView
+            android:id="@+id/PointsLABEL_"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="P:15000"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/LivesLABEL_"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="L:1000"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</FrameLayout>

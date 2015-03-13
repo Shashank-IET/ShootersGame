@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:paddingEnd="30dp"
+        android:paddingTop="85dp" >
+
+        <!-- <LinearLayout -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:orientation="vertical" > -->
+
+
+        <!-- <ImageView -->
+        <!-- android:id="@+id/LevelImage" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="50dp" -->
+        <!-- android:layout_gravity="end" -->
+        <!-- android:paddingEnd="15dp" -->
+        <!-- android:scaleType="centerInside" -->
+        <!-- android:scaleX="1.6" -->
+        <!-- android:scaleY="1.6" -->
+        <!-- android:src="@drawable/level2_tag" /> -->
+        <!-- </LinearLayout> -->
+    </LinearLayout>
+
+</FrameLayout>
